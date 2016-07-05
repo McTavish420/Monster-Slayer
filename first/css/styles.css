@@ -155,8 +155,8 @@ margin-top: 15px;
 
 /* End Home Page*/
 
-/* Menu Catagories Page */
-.catagory-tile {
+/* Menu Categories Page */
+.category-tile {
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
@@ -164,7 +164,7 @@ margin-top: 15px;
   height: 200px;
   margin: 0 auto 15px;
 }
-.catagory-tile span {
+.category-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -176,15 +176,15 @@ margin-top: 15px;
   color: #fff;
   opacity: .8;
 }
-.catagory-tile:hover {
+.category-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-#menu-catagory-title + div {
+#menu-category-title + div {
   margin-bottom: 50px;
 } 
-/* End of Menu Catagorie Page */
+/* End of Menu Categorie Page */
 
-/* Single Catagory Menu */
+/* Single Category Menu */
 .menu-item-tile {
   margin-bottom: 25px;
 }
@@ -228,7 +228,7 @@ h3.menu-item-title {
   font-size: .9em;
   font-style: italic;
 }
-/* End of Single Catagory Menu */
+/* End of Single Category Menu */
 
 
 /*** Large Display ***/
