@@ -91,6 +91,8 @@ var switchMenuToActive = function () {
  	$ajaxUtils.sendGetRequest(categoriesTitleHtml,function (categoriesTitleHtml) {
       // Retrieve single category snippet
       $ajaxUtils.sendGetRequest(categoryHtml,function (categoryHtml) {
+        // Switch CSS class active to menu button
+          switchMenuToActive();
         var categoriesViewHtml = 
         buildCategoriesViewHtml(categories,
         	                    categoriesTitleHtml,
@@ -132,6 +134,8 @@ var switchMenuToActive = function () {
       $ajaxUtils.sendGetRequest(
         menuItemHtml,
         function (menuItemHtml) {
+          // Switch CSS class active to menu button
+          switchMenuToActive();
           var menuItemsViewHtml = 
             buildMenuItemsViewHtml(categoryMenuItems, 
                                    menuItemsTitleHtml,
