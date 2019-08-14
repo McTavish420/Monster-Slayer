@@ -1,2 +1,2 @@
-# Practise-page
-This repository will be used only for uploading pages that I practice.......... 
+# Monster Slayer Project
+Using only HTML, CSS, ES6 and Vuejs Basic properties
